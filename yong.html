@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>yong</title>
+	<link rel="stylesheet" type="text/css" href="yong.css">
+  <script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="yong.js"></script>
+</head>
+<body>
+<div class="head">
+	<img src="open.png">
+	<div id="mySidenav" class="sidenav">
+  	<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+  	<a href="#">Home</a>
+  	<a href="#">About</a>
+  	<a href="#">Contact</a>
+  	<a href="#">Leaderboard</a>
+  </div>
+  <span class="open" style="font-size: 50px; cursor: pointer;" onclick="openNav()">&#9776;</span>
+</div>
+<div class="mid">
+ <img src="library.jpg.jpeg" class="image">
+ 
+  <div class="midtext">
+	<p>Welcome to Learn360 official Site<br>
+	 You have been trying to learn that European or Asian language<br> and its not been going as you expected?<br>
+	 <b>Learn360</b>  is here to help you! </p>
+	 <button class="sign" onclick="openModal()">  Sign-in </button>
+	 <button class="reg"  onclick="openReg()">   Register</button>
+  </div>
+</div>
+<div class="content">
+	<p>Why should you use Learn360</p>
+	<span class="join">
+		<img src="join.png">
+		<p> Having difficulties learning European and asian languages?, We at Learn360 are here to help you learn everything very easy. We are trying our best to get the best tutors and materials , technology and everything that will help you learn easily.</p>
+	</span>
+	<span class="read">
+		<img src="read.png">
+		<p>    The courses entails tutorials , tests , examination and a certificate per course all for free. Yes! , certificates will be offered on completion of each of the courses . So its up to you now , do your best!</p>
+	</span>
+	<span class="go">
+		<img src="go.png">
+		<p> You can as well make a profession from this . Getting to speak foreign languages will be a personal asset to you as you can work in embassies , become a linguist or even an interpreter . The  ball is in youe court now , JustLearn! </p>
+	</span>
+</div>
+    
+    	<div id="modal" class="modalcontent">
+    		<h1>Sign In</h1>
+    		<br>
+    		<form id="form">
+    			<input type="username" name="username" placeholder=" &#128100; Username">
+    			<input type="password" name="password" placeholder=" &#128274;Password">
+    			<button><a href="#">Login</a></button>
+    		</form>
+    		<span class="close" onclick="closeModal()">&times;</span>
+    		<p> Forgot password?</p>
+    	</div>
+
+    	<div id="reg" class="regcontent">
+    		<h2> Register  </h2>
+    		<br>
+    		<form id="form2">
+    			<input type="text" name="name" placeholder="Full Name" id="name">
+          <div class="err" style="color: red; text-align: center;padding: 0; margin: 0;"></div>
+    			<input type="text" name="email" placeholder="E-mail">
+    			<input type="text" name="name" placeholder="Create Username">
+    			<input type="password" name="password" placeholder="Create password" id="Crpassword">
+    			<input type="password" name="password" placeholder=" Confirm password" id="Copassword">
+          <div class="err2" style="color: red; text-align: center;padding: 0; margin: 0;"></div>
+    			<button class="reg-btn">Submit</button>
+          
+    		</form>
+    		<span class="close2" onclick="closeReg()">&times;</span>
+    	</div>
+    	
+
+    
+
+
+
+
+
+
+
+
+
+
+<footer class="foot">
+	<h1>Learn360</h1>
+	<span class="side1">
+		<h3>Quick Links</h3>					
+     <ul><a href="#">Settings</a></ul>
+     <ul><a href="#">Feedback</a></ul>
+     <ul><a href="#">Privacy</a></ul>
+     <ul><a href="#">Logout</a></ul>
+     <ul><a href="#">FAQ</a></ul>
+    </span>
+    <span class="side2">
+    	<h3>Contact Us</h3>
+    	<p>Learn360 Arena <br>
+    	   P.O Box 1415202<br>
+    	   Valley view,Gbagada,Lagos.<br>
+    	   Whatsapp : +2348146379940
+    	</p>
+    </span>
+    <span class="side3">
+    	<p>c 2020 Learn360 . All rights reserved. Terms of use and License</p>
+    </span>
+</footer>
+
+</body>
+</html>
+
+
+
